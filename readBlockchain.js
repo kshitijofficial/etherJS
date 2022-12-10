@@ -1,6 +1,6 @@
 const { ethers } = require("ethers");
 const provider = new ethers.providers.JsonRpcProvider(
-  `https://mainnet.infura.io/v3/cc989313761747d6b4c058df9495f3a0`
+  `Enter You INFURA mainnet endpoint`
 );
 
 const querryBlockchain = async () => {
